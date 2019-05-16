@@ -92,8 +92,6 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 100%;
-  height: auto;
 }
 
 #background{
@@ -492,8 +490,7 @@ footer div a{
 
 @media only screen and (max-width: 768px) {
   body{
-    overflow-y: visible;
-    overflow-x: hidden;
+    max-width: 768px;
   }
   #top_nav #icon {
     display: block;
@@ -629,8 +626,7 @@ footer div a{
 
 @media only screen and (max-width: 480px) {
   body{
-    overflow-y: visible;
-    overflow-x: hidden;
+    max-width: 480px;
   }
   #top_nav #icon {
     display: block;
