@@ -1,8 +1,6 @@
 font-face {
   font-family: 'Quantify';
-  src:
-    local('Quantify'),
-    url(./fonts/Quantify.ttf) format('ttf');
+  src: url('./fonts/Quantify.ttf') format('truetype');
 }
 html{
   scroll-behavior: smooth;
@@ -10,7 +8,7 @@ html{
 body{
   padding: 0px;
   margin: 0px;
-  font-family: 'Quantify';
+  font-family: 'Quantify', Arial;
   letter-spacing: 1px;
   overflow-x: hidden;
 }
