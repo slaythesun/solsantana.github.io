@@ -509,7 +509,7 @@ footer div a{
   }
   #top_nav:hover #menu li{
     display: block;
-    font-size: 4vw;
+    font-size: 3vw;
     padding: 2% 0% 2% 5%;
     margin: 0;
     -webkit-transition: background-color 2s ease-out;
