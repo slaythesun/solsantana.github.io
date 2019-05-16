@@ -498,16 +498,16 @@ footer div a{
   #top_nav ul{
     display: none;
   }
-  #top_nav:hover #top_nav:active ul{
+  #top_nav:hover ul{
     display: block;
     clear: both;
   }
-  #top_nav:hover #top_nav:active #menu{
+  #top_nav:hover #menu{
     width: 100%;
     margin-top: -2%;
     padding: 0;
   }
-  #top_nav:hover #top_nav:active #menu li{
+  #top_nav:hover #menu li{
     display: block;
     font-size: 2vw;
     padding: 2% 0% 2% 5%;
@@ -517,11 +517,11 @@ footer div a{
       -o-transition: background-color 2s ease-out;
       transition: background-color 2s ease-out;
   }
-  #top_nav:hover #top_nav:active #menu li:hover{
+  #top_nav:hover #menu li:hover{
     background-color: gray;
     color: black;
   }
-  #top_nav:hover #top_nav:active #social{
+  #top_nav:hover #social{
     padding-bottom: 2%;
     width: 100%;
     margin: 0% -35%;
@@ -635,16 +635,16 @@ footer div a{
   #top_nav ul{
     display: none;
   }
-  #top_nav:hover #top_nav:active ul{
+  #top_nav:hover ul{
     display: block;
     clear: both;
   }
-  #top_nav:hover #top_nav:active #menu{
+  #top_nav:hover #menu{
     width: 100%;
     margin-top: -2%;
     padding: 0;
   }
-  #top_nav:hover #top_nav:active #menu li{
+  #top_nav:hover #menu li{
     display: block;
     font-size: 3vw;
     padding: 2% 0% 2% 5%;
@@ -654,16 +654,16 @@ footer div a{
       -o-transition: background-color 2s ease-out;
       transition: background-color 2s ease-out;
   }
-  #top_nav:hover #top_nav:active #menu li:hover{
+  #top_nav:hover #menu li:hover{
     background-color: gray;
     color: black;
   }
-  #top_nav:hover #top_nav:active #social{
+  #top_nav:hover #social{
     padding-bottom: 2%;
     width: 100%;
     margin: 0% -25%;
   }
-  #top_nav:hover #top_nav:active #social img{
+  #top_nav:hover #social img{
     width: 6vw;
     height: 6vw;
   }
