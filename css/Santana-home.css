@@ -2,9 +2,11 @@ font-face {
   font-family: 'Quantify';
   src: url('./fonts/Quantify.ttf') format('truetype');
 }
+
 html{
   scroll-behavior: smooth;
 }
+
 body{
   padding: 0px;
   margin: 0px;
@@ -12,6 +14,7 @@ body{
   letter-spacing: 1px;
   overflow-x: hidden;
 }
+
 #top_nav{
   width: 100%;
   background-color: black;
@@ -324,43 +327,54 @@ footer div a{
     font-size: 1.4vw;
     margin-top: 2.5%;
   }
+
   #top_nav #social img{
     width: 40px;
     height: 40px;
   }
+
   #background {
     padding: 15% 0% 10% 0%;
   }
+
   #about{
     padding: 25% 20%;
   }
+
   #about-content{
     width: 60%;
   }
+
   #projects h1{
     padding-top: 25vw;
     padding-left: 2vw;
     font-size: 2.5vw;
   }
+
   #projects .gallery{
       padding: 5% 20% 30% 20%;
       grid-auto-rows: 12vw;
   }
+
   #projects .gallery a img{
     width: 125%;
     height: 125%;
   }
+
   #text {
     padding: 4% 7% 4% 8%;
     font-size: 1.2vw;
     line-height: 2.3vw;
   }
+
   #text a:hover{
     font-size: 1.3vw;
   }
+
   #contact{
     padding: 15% 25% 15% 25%;
   }
+
   #contact section{
     width: 50%;
   }
@@ -401,13 +415,16 @@ footer div a{
     font-size: 1.7vw;
     margin-top: 2.5%;
   }
+
   #top_nav #social img{
     width: 35px;
     height: 35px;
   }
+
   #background {
     padding: 23% 3% 23% 3%;
   }
+
   #background #home h1{
       font-size: 3.5vw;
   }
@@ -415,41 +432,51 @@ footer div a{
   #background #home h2{
       font-size: 2.5vw;
   }
+
   #about{
     padding: 31% 15%;
   }
+
   #about-content{
     width: 70%;
   }
+
   #projects h1{
     padding-top: 25vw;
     padding-left: 2vw;
     font-size: 3.4vw;
   }
+
   #projects .gallery{
       padding: 8% 10% 44% 15%;
       grid-auto-rows: 14vw;
       grid-column-gap: 12%;
   }
+
   #projects .gallery a img{
     width: 240%;
     height: 175%;
   }
+
   #text {
     padding: 4% 7% 4% 8%;
     font-size: 1.5vw;
     line-height: 2.5vw;
   }
+
   #text a:hover{
     font-size: 1.6vw;
   }
+
   #contact{
     padding: 15% 20% 15% 20%;
   }
+
   #contact section{
     font-size: 1.5vw;
     width: 60%;
   }
+
   #contact section form{
     padding: 7vw 0vw;
   }
@@ -469,14 +496,17 @@ footer div a{
     font-size: 1.4vw;
     padding: 1vw 0vw;
   }
+
   #contact section form button{
     font-size: 1.4vw;
     margin: 0.5vw 0vw;
     padding: 1.5vw 0vw;
   }
+
   footer p{
     font-size: 2vw;
   }
+
   footer #to-top{
       font-size: 1.6vw;
       margin-top: -3.5%;
@@ -492,21 +522,26 @@ footer div a{
   body{
     max-width: 768px;
   }
+
   #top_nav #icon {
     display: block;
   }
+
   #top_nav ul{
     display: none;
   }
+
   #top_nav:hover ul{
     display: block;
     clear: both;
   }
+
   #top_nav:hover #menu{
     width: 100%;
     margin-top: -2%;
     padding: 0;
   }
+
   #top_nav:hover #menu li{
     display: block;
     font-size: 3vw;
@@ -517,22 +552,27 @@ footer div a{
       -o-transition: background-color 2s ease-out;
       transition: background-color 2s ease-out;
   }
+
   #top_nav:hover #menu li:hover{
     background-color: gray;
     color: black;
   }
+
   #top_nav:hover #social{
     padding-bottom: 2%;
     width: 100%;
     margin: 0% -35%;
   }
+
   #top_nav:hover #social img{
     width: 5vw;
     height: 5vw;
   }
+
   #background {
     padding: 20% 3% 20% 3%;
   }
+
   #background #home h1{
       font-size: 3.5vw;
   }
@@ -540,40 +580,50 @@ footer div a{
   #background #home h2{
       font-size: 2.5vw;
   }
+
   #about{
     padding: 25% 15%;
   }
+
   #about-content{
     width: 70%;
   }
+
   #projects h1{
     padding-top: 35vw;
     padding-left: 2vw;
     font-size: 4vw;
   }
+
   #projects .gallery{
       padding: 8% 10% 55% 15%;
       grid-auto-rows: 14vw;
       grid-column-gap: 12%;
   }
+
   #projects .gallery a img{
     width: 240%;
     height: 175%;
   }
+
   #text {
     padding: 4% 7% 4% 8%;
     font-size: 1.5vw;
     line-height: 2.7vw;
   }
+
   #text a:hover{
     font-size: 1.55vw;
   }
+
   #contact{
     padding: 40% 20% 40% 20%;
   }
+
   #contact{
     padding: 20% 20% 20% 20%;
   }
+
   #contact section{
     font-size: 1.5vw;
     width: 60%;
@@ -613,6 +663,7 @@ footer div a{
   footer p{
     font-size: 2.5vw;
   }
+
   footer #to-top{
       font-size: 1.5vw;
       margin-top: -4%;
@@ -628,21 +679,26 @@ footer div a{
   body{
     max-width: 480px;
   }
+
   #top_nav #icon {
     display: block;
   }
+
   #top_nav ul{
     display: none;
   }
+
   #top_nav:hover ul{
     display: block;
     clear: both;
   }
+
   #top_nav:hover #menu{
     width: 100%;
     margin-top: -2%;
     padding: 0;
   }
+
   #top_nav:hover #menu li{
     display: block;
     font-size: 3vw;
@@ -653,25 +709,31 @@ footer div a{
       -o-transition: background-color 2s ease-out;
       transition: background-color 2s ease-out;
   }
+
   #top_nav:hover #menu li:hover{
     background-color: gray;
     color: black;
   }
+
   #top_nav:hover #social{
     padding-bottom: 2%;
     width: 100%;
     margin: 0% -25%;
   }
+
   #top_nav:hover #social img{
     width: 6vw;
     height: 6vw;
   }
+
   #background {
     padding: 35% 3% 35% 3%;
   }
+
   #background #home{
     line-height: 2.5vw;
   }
+
   #background #home h1{
       font-size: 4.5vw;
   }
@@ -679,37 +741,46 @@ footer div a{
   #background #home h2{
       font-size: 3.5vw;
   }
+
   #about{
     padding: 20% 10%;
   }
+
   #about-content{
     width: 80%;
   }
+
   #projects h1{
     padding-top: 38vw;
     padding-left: 2vw;
     font-size: 4vw;
   }
+
   #projects .gallery{
       padding: 8% 10% 50% 15%;
       grid-auto-rows: 14vw;
       grid-column-gap: 12%;
   }
+
   #projects .gallery a img{
     width: 240%;
     height: 175%;
   }
+
   #text {
     padding: 4% 7% 4% 8%;
     font-size: 2vw;
     line-height: 4vw;
   }
+
   #text a:hover{
     font-size: 2.1vw;
   }
+
   #contact{
     padding: 60% 15% 60% 15%;
   }
+
   #contact section{
     font-size: 2.5vw;
     width: 70%;
@@ -718,9 +789,11 @@ footer div a{
   #contact section span{
     font-size: 2.5vw;
   }
+
   footer p{
     font-size: 3.5vw;
   }
+  
   footer #to-top{
       font-size: 3vw;
       width: 100%;
