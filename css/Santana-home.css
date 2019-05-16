@@ -488,6 +488,9 @@ footer div a{
 */
 
 @media only screen and (max-width: 768px) {
+  body{
+    overflow: hidden;
+  }
   #top_nav #icon {
     display: block;
   }
@@ -621,6 +624,9 @@ footer div a{
 */
 
 @media only screen and (max-width: 480px) {
+  body{
+    overflow: hidden;
+  }
   #top_nav #icon {
     display: block;
   }
