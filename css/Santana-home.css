@@ -669,6 +669,10 @@ footer div a{
       font-size: 1.5vw;
       margin-top: -4%;
   }
+
+  footer div{
+      font-size: 1.3vw;
+  }
 }
 
 /*
@@ -810,5 +814,9 @@ footer div a{
       font-size: 3vw;
       width: 100%;
       margin: -6% 0% 0% 0%;
+  }
+
+  footer div{
+      font-size: 1.3vw;
   }
 }
