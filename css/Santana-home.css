@@ -761,6 +761,7 @@ footer div a{
     padding: 5% 10%;
     font-size: 3vw;
     line-height: 4vw;
+    color: blue;
   }
 
   #text a:hover{
