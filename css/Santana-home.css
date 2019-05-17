@@ -733,7 +733,7 @@ footer div a{
 
   #background {
     padding: 45% 3% 45% 4%;
-    background-size: cover;
+    background-image: none;
   }
 
   #background #home{
