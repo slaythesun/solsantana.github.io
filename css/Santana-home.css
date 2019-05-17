@@ -569,6 +569,11 @@ footer div a{
     height: 8vw;
   }
 
+  .parallax {
+    /* Create the parallax scrolling effect */
+    background-size: 230% 90%;
+  }
+
   #background {
     padding: 45% 3% 45% 3%;
   }
@@ -724,6 +729,11 @@ footer div a{
   #top_nav:hover #social img{
     width: 8vw;
     height: 8vw;
+  }
+
+  .parallax {
+    /* Create the parallax scrolling effect */
+    background-size: 90%;
   }
 
   #background {
