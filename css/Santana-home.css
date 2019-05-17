@@ -717,7 +717,7 @@ footer div a{
   }
 
   #top_nav:hover #social{
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     width: 100%;
     margin: 0% -25%;
   }
@@ -729,7 +729,6 @@ footer div a{
 
   #background {
     padding: 45% 3% 45% 4%;
-    background-size: 230% 90%;
   }
 
   #background #home{
