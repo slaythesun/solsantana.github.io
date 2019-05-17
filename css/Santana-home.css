@@ -412,13 +412,13 @@ footer div a{
 
 @media only screen and (min-width: 768px) and (max-width: 1024px){
   #top_nav #menu a li{
-    font-size: 1.7vw;
+    font-size: 1vw;
     margin-top: 2.5%;
   }
 
   #top_nav #social img{
-    width: 35px;
-    height: 35px;
+    width: 2vw;
+    height: 2vw;
   }
 
   #background {
@@ -701,7 +701,7 @@ footer div a{
 
   #top_nav:hover #menu li{
     display: block;
-    font-size: 3vw;
+    font-size: 4vw;
     padding: 2% 0% 2% 5%;
     margin: 0;
     -webkit-transition: background-color 2s ease-out;
