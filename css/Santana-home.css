@@ -680,6 +680,11 @@ footer div a{
     overflow-x: hidden;
   }
 
+  .parallax {
+    /* Create the parallax scrolling effect */
+    background-size: 20%;
+  }
+
   #top_nav #icon {
     display: block;
   }
