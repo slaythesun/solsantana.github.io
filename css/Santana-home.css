@@ -523,6 +523,10 @@ footer div a{
     overflow-x: hidden;
   }
 
+  .parallax {
+    background-attachment:scroll;
+  }
+
   #top_nav #icon {
     display: block;
   }
@@ -679,6 +683,10 @@ footer div a{
 @media only screen and (max-width: 480px) {
   html, body{
     overflow-x: hidden;
+  }
+
+  .parallax {
+    background-attachment:scroll;
   }
 
   #top_nav #icon {
