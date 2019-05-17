@@ -523,11 +523,6 @@ footer div a{
     overflow-x: hidden;
   }
 
-  .parallax {
-    /* Create the parallax scrolling effect */
-    background-size: 20%;
-  }
-
   #top_nav #icon {
     display: block;
   }
@@ -575,7 +570,7 @@ footer div a{
   }
 
   #background {
-    padding: 20% 3% 20% 3%;
+    padding: 40% 3% 40% 3%;
   }
 
   #background #home h1{
@@ -587,11 +582,21 @@ footer div a{
   }
 
   #about{
-    padding: 25% 15%;
+    padding: 15% 10%;
   }
 
   #about-content{
-    width: 70%;
+    width: 80%;
+  }
+
+  #text {
+    padding: 5% 10%;
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+
+  #text a:hover{
+    font-size: 3.5vw;
   }
 
   #projects h1{
@@ -609,16 +614,6 @@ footer div a{
   #projects .gallery a img{
     width: 240%;
     height: 175%;
-  }
-
-  #text {
-    padding: 4% 7% 4% 8%;
-    font-size: 1.5vw;
-    line-height: 2.7vw;
-  }
-
-  #text a:hover{
-    font-size: 1.55vw;
   }
 
   #contact{
@@ -683,11 +678,6 @@ footer div a{
 @media only screen and (max-width: 480px) {
   html, body{
     overflow-x: hidden;
-  }
-
-  .parallax {
-    /* Create the parallax scrolling effect */
-    background-size: 20%;
   }
 
   #top_nav #icon {
