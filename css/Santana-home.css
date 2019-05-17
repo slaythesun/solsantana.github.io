@@ -523,6 +523,11 @@ footer div a{
     max-width: 768px;
   }
 
+  .parallax {
+    /* Create the parallax scrolling effect */
+    background-size: contain ;
+  }
+
   #top_nav #icon {
     display: block;
   }
@@ -678,6 +683,11 @@ footer div a{
 @media only screen and (max-width: 480px) {
   body{
     max-width: 480px;
+  }
+
+  .parallax {
+    /* Create the parallax scrolling effect */
+    background-size: contain ;
   }
 
   #top_nav #icon {
