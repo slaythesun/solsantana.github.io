@@ -416,6 +416,10 @@ footer div a{
     margin-top: 2.5%;
   }
 
+  .parallax {
+    background-size: 230% 90%;
+  }
+
   #top_nav #social img{
     width: 2vw;
     height: 2vw;
