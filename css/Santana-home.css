@@ -416,7 +416,8 @@ footer div a{
     margin-top: 2.5%;
   }
 
-  .parallax {
+  #background .parallax {
+    /* Create the parallax scrolling effect */
     background-size: 230% 90%;
   }
 
@@ -573,7 +574,7 @@ footer div a{
     height: 8vw;
   }
 
-  .parallax {
+  #background .parallax {
     /* Create the parallax scrolling effect */
     background-size: 230% 90%;
   }
@@ -735,9 +736,9 @@ footer div a{
     height: 8vw;
   }
 
-  .parallax {
+  #background .parallax {
     /* Create the parallax scrolling effect */
-    background-size: 90%;
+    background-size: 230% 90%;
   }
 
   #background {
