@@ -733,7 +733,6 @@ footer div a{
 
   #background {
     padding: 40% 3% 45% 4%;
-    background-image: none;
   }
 
   #background #home{
@@ -749,7 +748,7 @@ footer div a{
   }
 
   #about{
-    padding: 15% 10%;
+    padding: 20% 15%;
   }
 
   #about-content{
