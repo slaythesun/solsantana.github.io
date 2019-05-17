@@ -416,11 +416,6 @@ footer div a{
     margin-top: 2.5%;
   }
 
-  #background .parallax {
-    /* Create the parallax scrolling effect */
-    background-size: 230% 90%;
-  }
-
   #top_nav #social img{
     width: 2vw;
     height: 2vw;
