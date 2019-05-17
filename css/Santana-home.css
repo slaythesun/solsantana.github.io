@@ -727,13 +727,9 @@ footer div a{
     height: 8vw;
   }
 
-  #background .parallax {
-    /* Create the parallax scrolling effect */
-    background-size: 230% 90%;
-  }
-
   #background {
     padding: 45% 3% 45% 3%;
+    background-size: 230% 90%;
   }
 
   #background #home{
@@ -741,11 +737,11 @@ footer div a{
   }
 
   #background #home h1{
-      font-size: 4vw;
+      font-size: 6vw;
   }
 
   #background #home h2{
-      font-size: 3vw;
+      font-size: 5vw;
   }
 
   #about{
