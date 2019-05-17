@@ -748,7 +748,7 @@ footer div a{
   }
 
   #about{
-    padding: 20% 5%;
+    padding: 20% 15%;
   }
 
   #about-content{
@@ -793,16 +793,16 @@ footer div a{
   }
 
   #contact{
-    padding: 60% 15% 60% 15%;
+    padding: 30% 10% 30% 10%;
   }
 
   #contact section{
-    font-size: 2.5vw;
+    font-size: 4.5vw;
     width: 70%;
   }
 
   #contact section span{
-    font-size: 2.5vw;
+    font-size: 4.5vw;
   }
 
   footer p{
