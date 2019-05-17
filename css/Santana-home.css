@@ -622,12 +622,12 @@ footer div a{
   }
 
   #contact{
-    padding: 30% 20% 30% 20%;
+    padding: 20% 10% 20% 1%;
   }
 
   #contact section{
-    font-size: 1.5vw;
-    width: 60%;
+    font-size: 2vw;
+    width: 70%;
   }
 
   #contact section form{
