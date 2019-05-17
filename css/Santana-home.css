@@ -412,13 +412,13 @@ footer div a{
 
 @media only screen and (min-width: 768px) and (max-width: 1024px){
   #top_nav #menu a li{
-    font-size: 1vw;
-    margin-top: 2.5%;
+    font-size: 1.5vw;
+    margin-top: 1.8%;
   }
 
   #top_nav #social img{
-    width: 2vw;
-    height: 2vw;
+    width: 3vw;
+    height: 3vw;
   }
 
   #background {
@@ -426,7 +426,7 @@ footer div a{
   }
 
   #background #home h1{
-      font-size: 5vw;
+      font-size: 4vw;
   }
 
   #background #home h2{
@@ -544,7 +544,7 @@ footer div a{
 
   #top_nav:hover #menu li{
     display: block;
-    font-size: 4vw;
+    font-size: 6vw;
     padding: 2% 0% 2% 5%;
     margin: 0;
     -webkit-transition: background-color 2s ease-out;
@@ -569,21 +569,17 @@ footer div a{
     height: 8vw;
   }
 
-  #background .parallax {
-    /* Create the parallax scrolling effect */
+  #background {
+    padding: 45% 3% 45% 3%;
     background-size: 230% 90%;
   }
 
-  #background {
-    padding: 45% 3% 45% 3%;
-  }
-
   #background #home h1{
-      font-size: 6vw;
+      font-size: 7vw;
   }
 
   #background #home h2{
-      font-size: 4vw;
+      font-size: 5vw;
   }
 
   #about{
@@ -745,11 +741,11 @@ footer div a{
   }
 
   #background #home h1{
-      font-size: 5vw;
+      font-size: 4vw;
   }
 
   #background #home h2{
-      font-size: 4vw;
+      font-size: 3vw;
   }
 
   #about{
