@@ -322,7 +322,7 @@ footer div a{
   color: white;
 }
 
-/* @media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1280px) {
   #top_nav #menu a li{
     font-size: 1.4vw;
     margin-top: 2.5%;
@@ -408,7 +408,7 @@ footer div a{
       font-size: 1.3vw;
       margin-top: -3%;
   }
-} */
+}
 
 /* @media only screen and (min-width: 768px) and (max-width: 1024px){
   #top_nav #menu a li{
@@ -518,7 +518,7 @@ footer div a{
   ##Screen = B/w 481px to 767px
 */
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   html, body{
     overflow-x: hidden;
   }
@@ -673,7 +673,7 @@ footer div a{
   footer div{
       font-size: 1.3vw;
   }
-} */
+}
 
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
