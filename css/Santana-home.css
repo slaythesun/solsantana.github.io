@@ -518,7 +518,7 @@ footer div a{
   ##Screen = B/w 481px to 767px
 */
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   html, body{
     overflow-x: hidden;
   }
