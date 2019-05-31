@@ -106,7 +106,7 @@ body{
 #background #home{
   text-align: center;
   line-height: 1.2vw;
-  padding: 22% 0%;
+  padding: 25% 0% 20% 5%;
 
       -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
          -moz-animation: fadein 3s; /* Firefox < 16 */
