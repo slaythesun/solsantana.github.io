@@ -56,7 +56,7 @@ body{
 
 #top_nav #social{
   float: right;
-  margin: 15px 50px 10px 0px;
+  margin: 15px 60px 10px 0px;
 }
 
 #top_nav #social img:hover{
@@ -73,13 +73,13 @@ body{
 }
 
 #top_nav #social li{
-  padding-left: 35px;
+  padding-left: 45px;
 }
 
 #top_nav #icon{
   display: none;
   float: right;
-  margin: 4% 5% 3% 0%;
+  margin: 4% 7% 3% 0%;
 }
 
 #top_nav #icon div{
@@ -106,7 +106,7 @@ body{
 #background #home{
   text-align: center;
   line-height: 1.2vw;
-  padding: 25% 0% 20% 5%;
+  padding: 23% 0% 23% 3%;
 
       -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
          -moz-animation: fadein 3s; /* Firefox < 16 */
@@ -156,12 +156,12 @@ body{
   width: 100%;
   background-image: url('../images/keyboard.jpg');
   /* border-bottom: 4vw solid black; */
-  padding: 15% 27% 15% 27%;
+  padding: 14% 25% 12% 25%;
 }
 
 #about-content{
   background-color: white;
-  width: 45%;
+  width: 50%;
   border: 7px solid #d1c762;
 }
 
@@ -200,26 +200,40 @@ body{
 }
 
 #projects .gallery{
-    padding: 5% 24% 20% 24%;
-    display: grid;
-    grid-row-gap: 15%;
-    grid-column-gap: 15%;
-    grid-template-columns: repeat(auto-fill, minmax(10vw, 1fr));
-    grid-auto-rows: 10vw;
+    padding: 10% 28% 6% 29%;
 }
 
-#projects .gallery a{
-    background-color: #000;
-    border-radius: 5%;
+#projects .gallery .box{
+  border: 0.4vw solid black;
+  background-color: #000;
+  margin-bottom: 10%;
+  height: 7vw;
+  transition: 1s;
 }
 
-#projects .gallery a img{
-    border-radius: 5%;
-    border: 0.5vw solid #000;
-    transition: 1s;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+#projects .gallery .box:hover {
+  transform: scale(1.1);
+}
+
+#projects .gallery #box1{
+  background-image: url("../Screenshot2.png");
+  background-position: 0vw -10.5vw;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#projects .gallery #box2{
+  background-image: url("https://images.unsplash.com/photo-1557322159-0a5638717017?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1350&q=80");
+  background-position: 0vw -3vw;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#projects .gallery #box3{
+  background-image: url("https://images.unsplash.com/photo-1553027257-7f791c15f20d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-position: 0vw -5vw;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 #projects .gallery img:hover{
