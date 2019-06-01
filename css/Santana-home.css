@@ -99,7 +99,7 @@ body{
 
 #background{
   width: 100%;
-  background-image: url('../images/background.jpg');
+  background-image: url('../images/wire.jpg');
   border-bottom: 2vw solid black;
 }
 
@@ -107,7 +107,6 @@ body{
   text-align: center;
   line-height: 1.2vw;
   padding: 23% 0% 23% 3%;
-
       -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
          -moz-animation: fadein 3s; /* Firefox < 16 */
           -ms-animation: fadein 3s; /* Internet Explorer */
@@ -154,7 +153,7 @@ body{
 
 #about{
   width: 100%;
-  background-image: url('../images/keyboard.jpg');
+  background-image: url('../images/triangles.jpg');
   border-bottom: 2vw solid black;
   padding: 14% 25% 12% 25%;
 }
@@ -186,7 +185,7 @@ body{
 
 #projects{
   width: 100%;
-  background-image: url('../images/triangles.jpg');
+  background-image: url('../images/fiber.jpg');
   border-bottom: 2vw solid black;
 }
 
@@ -200,13 +199,13 @@ body{
 }
 
 #projects .gallery{
-    padding: 8% 28%4% 29%;
+    padding: 7% 20% 3% 21%;
 }
 
 #projects .gallery .box{
-  border: 0.4vw solid black;
   background-color: #000;
-  margin-bottom: 5%;
+  border-radius: 0.5vw;
+  margin-bottom: 4%;
   height: 7vw;
   transition: 1s;
 }
@@ -217,30 +216,36 @@ body{
 
 #projects .gallery #box1{
   background-image: url("https://images.unsplash.com/photo-1557322159-0a5638717017?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1350&q=80");
-  background-position: 0vw -3vw;
+  background-position: 0vw -8vw;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 #projects .gallery #box2{
   background-image: url("../Screenshot2.png");
-  background-position: 0vw -10.5vw;
+  background-position: 0vw -16.5vw;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 #projects .gallery #box3{
   background-image: url("https://images.unsplash.com/photo-1553027257-7f791c15f20d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
-  background-position: 0vw -5vw;
+  background-position: 0vw -7vw;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 #projects .gallery .other{
   background-color: white;
-  border: 0.4vw solid black;
+  border: 0.2vw solid white;
+  border-radius: 0.5vw;
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
+  transition: 1s;
+}
+
+#projects .gallery .other:hover{
+  transform: scale(1.1);
 }
 
 #projects .gallery .other a{
