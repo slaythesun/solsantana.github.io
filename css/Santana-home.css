@@ -216,15 +216,15 @@ body{
 }
 
 #projects .gallery #box1{
-  background-image: url("../Screenshot2.png");
-  background-position: 0vw -10.5vw;
+  background-image: url("https://images.unsplash.com/photo-1557322159-0a5638717017?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1350&q=80");
+  background-position: 0vw -3vw;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 #projects .gallery #box2{
-  background-image: url("https://images.unsplash.com/photo-1557322159-0a5638717017?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1350&q=80");
-  background-position: 0vw -3vw;
+  background-image: url("../Screenshot2.png");
+  background-position: 0vw -10.5vw;
   background-repeat: no-repeat;
   background-size: 100%;
 }
