@@ -161,7 +161,8 @@ body{
 #about-content{
   background-color: white;
   width: 50%;
-  border: 7px solid #d1c762;
+  border: 9px solid black;
+  border-radius: 0.5vw;
 }
 
 #text {
@@ -199,13 +200,13 @@ body{
 }
 
 #projects .gallery{
-    padding: 7% 20% 3% 21%;
+    padding: 7% 25% 3% 26%;
 }
 
 #projects .gallery .box{
   background-color: #000;
   border-radius: 0.5vw;
-  margin-bottom: 4%;
+  margin-bottom: 4.5%;
   height: 7vw;
   transition: 1s;
 }
@@ -240,7 +241,7 @@ body{
   border: 0.2vw solid white;
   border-radius: 0.5vw;
   text-align: center;
-  margin-bottom: 4%;
+  margin-bottom: 4.5%;
   transition: 1s;
 }
 
@@ -264,6 +265,7 @@ body{
   text-align: center;
   background-color: rgb(0, 0, 0);
   width: 35%;
+  border-radius: 0.5vw;
 }
 
 #contact section form{
@@ -301,6 +303,7 @@ body{
 #contact section form button{
   background-color: #d1c762;
   border: none;
+  border-radius: 0.25vw;
   margin-top: 0.5vw;
   padding: 0.8vw 0vw;
   width: 50%;
