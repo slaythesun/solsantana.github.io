@@ -236,10 +236,6 @@ body{
   background-size: 100%;
 }
 
-#projects .gallery img:hover{
-    transform: scale(1.1);
-}
-
 #contact{
   width: 100%;
   background-image: url('../images/wire.jpg');
@@ -249,7 +245,7 @@ body{
 #contact section{
   font-size: 1vw;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgb(0, 0, 0);
   width: 35%;
 }
 
@@ -266,6 +262,7 @@ body{
   background-color: rgba(0, 0, 0, 0);
   border: none;
   border-bottom: 0.1vw solid white;
+  margin-bottom: 0.5vw;
   padding: 0.5vw 0vw;
   width: 50%;
   font-size: 0.8vw;
@@ -273,12 +270,12 @@ body{
 }
 
 #contact section form textarea{
-  font-family: Arial;
+  font-family: 'Arial';
   background-color: rgba(0, 0, 0, 0);
   border: none;
   border-bottom: 0.1vw solid white;
   width: 50%;
-  height: 4vw;
+  height: 5vw;
   max-width: 50%;
   font-size: 0.8vw;
   color: white;
@@ -287,10 +284,18 @@ body{
 #contact section form button{
   background-color: #d1c762;
   border: none;
-  padding: 0.7vw 0vw;
+  margin-top: 0.5vw;
+  padding: 0.8vw 0vw;
   width: 50%;
   font-size: 0.9vw;
   cursor: pointer;
+}
+
+#contact section form button:hover{
+  background-color: #dbd490;
+  -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
 }
 
 footer{
@@ -348,31 +353,23 @@ footer div a{
   }
 
   #background {
-    padding: 15% 0% 10% 0%;
+    padding: 10% 0%;
+  }
+
+  #background #home h1{
+      font-size: 3vw;
+  }
+
+  #background #home h2{
+      font-size: 2.2vw;
   }
 
   #about{
-    padding: 25% 20%;
+    padding: 20% 18% 20% 20%;
   }
 
   #about-content{
     width: 60%;
-  }
-
-  #projects h1{
-    padding-top: 25vw;
-    padding-left: 2vw;
-    font-size: 2.5vw;
-  }
-
-  #projects .gallery{
-      padding: 5% 20% 30% 20%;
-      grid-auto-rows: 12vw;
-  }
-
-  #projects .gallery a img{
-    width: 125%;
-    height: 125%;
   }
 
   #text {
@@ -383,6 +380,26 @@ footer div a{
 
   #text a:hover{
     font-size: 1.3vw;
+  }
+
+  #projects .gallery{
+      padding: 15% 20% 10% 20%;
+  }
+
+  #projects .gallery .box{
+    height: 9.5vw;
+  }
+
+  #projects .gallery #box1{
+    background-position: 0vw -14.5vw;
+  }
+
+  #projects .gallery #box2{
+    background-position: 0vw -7vw;
+  }
+
+  #projects .gallery #box3{
+    background-position: 0vw -8vw;
   }
 
   #contact{
@@ -409,8 +426,9 @@ footer div a{
   }
 
   #contact section form textarea{
-    font-size: 1.1vw;
+    font-size: 1vw;
     padding: 1vw 0vw;
+    margin-bottom: 1vw;
   }
 
   #contact section form button{
@@ -423,114 +441,6 @@ footer div a{
       margin-top: -3%;
   }
 }
-
-/* @media only screen and (min-width: 768px) and (max-width: 1024px){
-  #top_nav #menu a li{
-    font-size: 1.5vw;
-    margin-top: 1.8%;
-  }
-
-  #top_nav #social img{
-    width: 3vw;
-    height: 3vw;
-  }
-
-  #background {
-    padding: 23% 3% 23% 3%;
-  }
-
-  #background #home h1{
-      font-size: 4vw;
-  }
-
-  #background #home h2{
-      font-size: 3vw;
-  }
-
-  #about{
-    padding: 31% 15%;
-  }
-
-  #about-content{
-    width: 70%;
-  }
-
-  #projects h1{
-    padding-top: 25vw;
-    padding-left: 2vw;
-    font-size: 3.4vw;
-  }
-
-  #projects .gallery{
-      padding: 8% 10% 44% 15%;
-      grid-auto-rows: 14vw;
-      grid-column-gap: 12%;
-  }
-
-  #projects .gallery a img{
-    width: 240%;
-    height: 175%;
-  }
-
-  #text {
-    padding: 4% 7% 4% 8%;
-    font-size: 1.5vw;
-    line-height: 2.5vw;
-  }
-
-  #text a:hover{
-    font-size: 1.6vw;
-  }
-
-  #contact{
-    padding: 15% 20% 15% 20%;
-  }
-
-  #contact section{
-    font-size: 1.5vw;
-    width: 60%;
-  }
-
-  #contact section form{
-    padding: 7vw 0vw;
-  }
-
-  #contact section form h3{
-    color: white;
-    font-size: 1.8vw;
-    letter-spacing: 0.2vw;
-  }
-
-  #contact section form input{
-    font-size: 1.3vw;
-    padding: 1vw 0vw;
-  }
-
-  #contact section form textarea{
-    font-size: 1.4vw;
-    padding: 1vw 0vw;
-  }
-
-  #contact section form button{
-    font-size: 1.4vw;
-    margin: 0.5vw 0vw;
-    padding: 1.5vw 0vw;
-  }
-
-  footer p{
-    font-size: 2vw;
-  }
-
-  footer #to-top{
-      font-size: 1.6vw;
-      margin-top: -3.5%;
-  }
-}
-
-/*
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
 
 @media only screen and (max-width: 768px) {
   html, body{
@@ -601,21 +511,21 @@ footer div a{
   }
 
   #about{
-    padding: 10% 5%;
+    padding: 15% 10%;
   }
 
   #about-content{
-    width: 87%;
+    width: 77%;
   }
 
   #text {
     padding: 5% 10%;
-    font-size: 3vw;
-    line-height: 6vw;
+    font-size: 2.5vw;
+    line-height: 4.75vw;
   }
 
   #text a:hover{
-    font-size: 3.5vw;
+    font-size: 2.75vw;
   }
 
   #projects h1{
@@ -625,39 +535,48 @@ footer div a{
   }
 
   #projects .gallery{
-      padding: 8% 10% 55% 15%;
-      grid-auto-rows: 14vw;
-      grid-column-gap: 12%;
+      padding: 15% 10% 10% 10%;
   }
 
-  #projects .gallery a img{
-    width: 240%;
-    height: 175%;
+  #projects .gallery .box{
+    height: 15vw;
+  }
+
+  #projects .gallery #box1{
+    background-position: 0vw -19.5vw;
+  }
+
+  #projects .gallery #box2{
+    background-position: 0vw -10vw;
+  }
+
+  #projects .gallery #box3{
+    background-position: 0vw -11vw;
   }
 
   #contact{
-    padding: 20% 10% 20% 10%;
+    padding: 10% 5% 10% 10%;
   }
 
   #contact section{
     font-size: 2vw;
-    width: 70%;
+    width: 80%;
   }
 
   #contact section form{
-    padding: 8vw 0vw;
+    padding: 10vw 0vw;
   }
 
   #contact section form h3{
     color: white;
-    font-size: 2vw;
-    letter-spacing: 0.2vw;
+    font-size: 2.5vw;
+    letter-spacing: 0.35vw;
   }
 
   #contact section form input{
     font-size: 2vw;
     padding: 1vw 0vw;
-    margin: 0.5vw 0vw;
+    margin: 0.75vw 0vw;
     width: 70%;
   }
 
@@ -670,7 +589,7 @@ footer div a{
   }
   #contact section form button{
     font-size: 2.3vw;
-    margin: 1.5vw 0vw;
+    margin: 2vw 0vw;
     padding: 1.5vw 0vw;
     width: 70%;
   }
@@ -688,153 +607,3 @@ footer div a{
       font-size: 1.3vw;
   }
 }
-
-/*
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-/*
-@media only screen and (max-width: 480px) {
-  html, body{
-    overflow-x: hidden;
-  }
-
-  .parallax {
-    background-attachment:scroll;
-  }
-
-  #top_nav #icon {
-    display: block;
-  }
-
-  #top_nav ul{
-    display: none;
-  }
-
-  #top_nav:hover ul{
-    display: block;
-    clear: both;
-  }
-
-  #top_nav:hover #menu{
-    width: 100%;
-    margin-top: -2%;
-    padding: 0;
-  }
-
-  #top_nav:hover #menu li{
-    display: block;
-    font-size: 4vw;
-    padding: 2% 0% 2% 5%;
-    margin: 0;
-    -webkit-transition: background-color 2s ease-out;
-      -moz-transition: background-color 2s ease-out;
-      -o-transition: background-color 2s ease-out;
-      transition: background-color 2s ease-out;
-  }
-
-  #top_nav:hover #menu li:hover{
-    background-color: gray;
-    color: black;
-  }
-
-  #top_nav:hover #social{
-    padding-bottom: 2%;
-    width: 100%;
-    margin: 0% -20%;
-  }
-
-  #top_nav:hover #social img{
-    width: 8vw;
-    height: 8vw;
-  }
-
-  #background {
-    padding: 40% 6% 45% 3%;
-    background-position: bottom center;
-  }
-
-  #background #home{
-    line-height: 2.5vw;
-  }
-
-  #background #home h1{
-      font-size: 6vw;
-  }
-
-  #background #home h2{
-      font-size: 4vw;
-  }
-
-  #about{
-    padding: 15% 10%;
-  }
-
-  #about-content{
-    width: 80%;
-  }
-
-  #text {
-    padding: 5% 10%;
-    font-size: 9vw;
-    line-height: 4vw;
-  }
-
-  #text a:hover{
-    font-size: 3.5vw;
-  }
-
-  #projects h1{
-    padding-top: 38vw;
-    padding-left: 2vw;
-    font-size: 4vw;
-  }
-
-  #projects .gallery{
-      padding: 8% 10% 50% 15%;
-      grid-auto-rows: 14vw;
-      grid-column-gap: 12%;
-  }
-
-  #projects .gallery a img{
-    width: 240%;
-    height: 175%;
-  }
-
-  #text {
-    padding: 4% 7% 4% 8%;
-    font-size: 2vw;
-    line-height: 4vw;
-  }
-
-  #text a:hover{
-    font-size: 2.1vw;
-  }
-
-  #contact{
-    padding: 20% 10% 20% 10%;
-  }
-
-  #contact section{
-    font-size: 4.5vw;
-    width: 80%;
-  }
-
-  #contact section span{
-    font-size: 4.5vw;
-  }
-
-  footer p{
-    font-size: 3.5vw;
-  }
-
-  footer #to-top{
-      font-size: 3vw;
-      width: 100%;
-      margin: -6% 0% 0% 0%;
-  }
-
-  footer div{
-      font-size: 1.3vw;
-  }
-} */
