@@ -412,15 +412,15 @@ footer div a{
   }
 
   #projects .gallery #box1{
-    background-position: 0vw -14.5vw;
+    background-position: 0vw -9vw;
   }
 
   #projects .gallery #box2{
-    background-position: 0vw -7vw;
+    background-position: 0vw -15vw;
   }
 
   #projects .gallery #box3{
-    background-position: 0vw -8vw;
+    background-position: 0vw -7vw;
   }
 
   #contact{
@@ -556,7 +556,7 @@ footer div a{
   }
 
   #projects .gallery{
-      padding: 15% 10% 10% 10%;
+      padding: 18% 10% 13% 10%;
   }
 
   #projects .gallery .box{
@@ -564,19 +564,19 @@ footer div a{
   }
 
   #projects .gallery #box1{
-    background-position: 0vw -19.5vw;
+    background-position: 0vw -12vw;
   }
 
   #projects .gallery #box2{
-    background-position: 0vw -10vw;
+    background-position: 0vw -18vw;
   }
 
   #projects .gallery #box3{
-    background-position: 0vw -11vw;
+    background-position: 0vw -8vw;
   }
 
   #contact{
-    padding: 10% 5% 10% 10%;
+    padding: 25% 5% 25% 10%;
   }
 
   #contact section{
