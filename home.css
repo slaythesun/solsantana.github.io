@@ -410,6 +410,18 @@ body {
 	}
 
 	#desc p {
+		font-size: 11px;
+	}
+
+	#myCarousel h3 {
+		font-size: 16px;
+	}
+
+	#myCarousel .card-title {
+		font-size: 16px;
+	}
+
+	#myCarousel .card-text {
 		font-size: 12px;
 	}
 
@@ -447,6 +459,7 @@ body {
 	#myCarousel h3 {
 		font-size: 12px;
 	}
+
 	#myCarousel .card-body {
 		padding: 0.75rem;
 	}
@@ -456,13 +469,11 @@ body {
 	}
 
 	#myCarousel .card-title {
-		font-weight: 200;
 		font-size: 10px;
 		line-height: 0.1
 	}
 
 	#myCarousel .card-text {
-		font-weight: 200;
 		font-size: 6px;
 		line-height: 1
 	}
