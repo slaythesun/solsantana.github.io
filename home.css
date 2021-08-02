@@ -376,13 +376,12 @@ body {
 @media only screen and (max-width: 1200px) {
 
 	#about {
-		height: 55vw;
+		height: 52vw;
 	}
 
 	#about .container {
-		margin-top: 2vw;
 		margin-left: 5vw;
-		width: 45%;
+		width: 40%;
 	}
 
 	#desc h3 {
