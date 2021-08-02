@@ -420,7 +420,7 @@ body {
 	}
 
 	#about .container {
-		margin-left: 7vw;
+		margin-left: 5vw;
 		width: 45%;
 	}
 
@@ -442,7 +442,7 @@ body {
 
 	#myCarousel .card-text {
 		font-size: 12px;
-		line-height: 1
+		line-height: 1.2
 	}
 
 }
