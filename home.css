@@ -416,7 +416,8 @@ body {
 @media only screen and (max-width: 768px) {
 
 	#about {
-		padding: 2vw 0;
+		height: 40vw;
+		padding: 0;
 	}
 
 	#about .container {
