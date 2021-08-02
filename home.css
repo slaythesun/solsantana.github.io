@@ -1,0 +1,369 @@
+html {
+	 scroll-behavior: smooth;
+	 max-height: 1000px;
+}
+
+body {
+	font-family: "Bahnschrift", sans-serif;
+	background-image: url('./Images/main-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+
+/*************************************************************
+**************************************************************
+						NAVBAR STYLING
+**************************************************************
+*************************************************************/
+
+.navbar {
+	margin-top: 4.5%;
+	margin-right: 5vw;
+	z-index: 1;
+	padding: 0;
+	position: absolute;
+	right: 0;
+}
+
+.nav-link .nav-item{
+	padding: 0 25px;
+	color: #f0f0f0;
+	font-size: 30px;
+	font-weight: 600;
+	transition: color .25s ease-in-out;
+}
+
+.nav-link .nav-item:hover {
+	cursor: pointer;
+	color: #57bf88;
+}
+
+#nav1 {
+	animation-name: floating-text;
+    animation-duration: 4.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#nav2 {
+	animation-name: floating-text;
+    animation-duration: 4.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#nav3 {
+	animation-name: floating-text;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#nav4 {
+	animation-name: floating-text;
+    animation-duration: 3.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating-text {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 10px); }
+    to   { transform: translate(0, -0px); }
+}
+
+/*************************************************************
+**************************************************************
+					Background and Images
+**************************************************************
+*************************************************************/
+
+#title {
+	animation-name: floating;
+    animation-duration: 5.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+}
+
+#computer-screen {
+	animation-name: floating;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+#cord {
+	animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+}
+
+#case{
+	animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+}
+
+#comic {
+	animation-name: floating;
+    animation-duration: 3.75s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+#glasses {
+	animation-name: floating;
+    animation-duration: 3.75s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+#keyboard {
+	animation-name: floating;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+}
+
+#satellite {
+	animation-name: floating;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+}
+
+#meteor {
+	animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+}
+
+#meteor-2 {
+	animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+}
+
+#planets #planet1 {
+	animation-name: floating;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 100%;
+    z-index: -3;
+    position: absolute;
+}
+
+#planets #planet2 {
+	animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 100%;
+    z-index: -3;
+    position: absolute;
+}
+
+#planets #planet3 {
+	animation-name: floating;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    width: 100%;
+    z-index: -3;
+    position: absolute;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 10px); }
+    to   { transform: translate(0, -0px); }
+}
+
+/*************************************************************
+**************************************************************
+						SECTION DIVISIONS
+**************************************************************
+*************************************************************/
+
+#main, #about {
+	height: 51.5vw;
+}
+
+/*************************************************************
+						ABOUT CONTENT
+*************************************************************/
+
+#about {
+	padding: 7vw 0;
+}
+
+#about .container {
+	margin-left: 7vw;
+}
+
+#desc {
+	padding: 3vw 3vw 2vw 3vw;
+	background-color: #f0f0f0;
+	border-left: 10px solid #57bf88;
+	border-right: 10px solid #57bf88;
+	transition: border .25s ease-out;
+}
+
+#desc:hover {
+	border-left: 10px solid #3b9f6a;
+	border-right: 10px solid #3b9f6a;
+	cursor: pointer;
+}
+
+#desc h3 {
+	font-size: 32px;
+}
+
+#desc p {
+	font-size: 16px;
+	font-weight: 200;
+}
+
+/*************************************************************
+						PROJECTS CONTENT
+*************************************************************/
+
+#projects {
+	padding: 4vw 0;
+	height: 54vw;
+}
+
+/*************************************************************
+						CAROUSEL CONTENT
+*************************************************************/
+
+#myCarousel {
+	background-color: #f0f0f0;
+	width: 86%;
+	margin: 0 auto;
+	padding: 4vw 3vw;
+	border-radius: 10px;
+	border-left: 10px solid #57bf88;
+	border-right: 10px solid #57bf88;
+	transition: border .25s ease-in-out;
+}
+
+#myCarousel:hover {
+	border-left: 10px solid #3b9f6a;
+	border-right: 10px solid #3b9f6a;
+	cursor: pointer;
+}
+
+#myCarousel h3 {
+	padding: 0vw 0vw 1vw 2.75vw;
+	font-size: 32px;
+}
+
+#myCarousel .card {
+	border: none;
+	background-color: #363636;
+	transition: background-color .5s ease-in-out;
+}
+
+#myCarousel .card:hover {
+	background-color: #f0f0f0;
+}
+
+#myCarousel a {
+	color: #f0f0f0;
+	text-decoration: none;
+	transition: background-color .5s ease-in-out;
+}
+
+#myCarousel .card:hover a {
+	color: black;
+}
+
+#myCarousel .card-text {
+	font-weight: 200;
+}
+
+#myCarousel .carousel-control-prev{
+	margin-left: -2.25vw;
+}
+
+#myCarousel .carousel-control-next{
+	margin-right: -2.5vw;
+}
+
+#myCarousel .carousel-control-prev-icon,
+#myCarousel .carousel-control-next-icon{
+	filter: invert(100%);
+}
+
+/*************************************************************
+						CONTACT CONTENT
+*************************************************************/
+
+#contact {
+	margin-top: -2%;
+	background-color: #1a1a1a;
+	border-top: 10px solid #57bf88;
+	color: #f0f0f0;
+	padding: 2.25vw 5vw 1.25vw 5vw;
+	transition: border .25s ease-in-out;
+}
+
+#contact:hover {
+	cursor: pointer;
+	border-top: 10px solid #3b9f6a;
+}
+
+#contact #social i{
+	float: left;
+	margin-right: 3vw;
+	margin-top: .75vw;
+	color: #57bf88;
+	transition: color .25s ease-in-out;
+}
+
+#contact #social i:hover{
+	color: #3b9f6a;
+}
+
+#contact #personal {
+	text-align: right;
+}
