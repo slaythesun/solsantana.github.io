@@ -402,7 +402,7 @@ body {
 
 	#about .container {
 		margin-left: 7vw;
-		width: 50%;
+		width: 45%;
 	}
 
 	#desc h3 {
@@ -418,7 +418,7 @@ body {
 @media only screen and (max-width: 600px) {
 
 	#about {
-		padding: 0;
+		height: 45vw;
 	}
 
 	#about .container {
@@ -432,6 +432,10 @@ body {
 
 	#desc p {
 		font-size: 7px;
+	}
+
+	#projects {
+		margin-bottom: 10vw;
 	}
 
 	#myCarousel {
