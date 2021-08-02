@@ -418,11 +418,11 @@ body {
 	}
 
 	#myCarousel .card-title {
-		font-size: 16px;
+		font-size: 15px;
 	}
 
 	#myCarousel .card-text {
-		font-size: 12px;
+		font-size: 10px;
 	}
 
 }
