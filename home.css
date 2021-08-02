@@ -416,7 +416,6 @@ body {
 @media only screen and (max-width: 768px) {
 
 	#about {
-		height: 40vw;
 		padding: 2vw 0;
 	}
 
@@ -468,7 +467,7 @@ body {
 	}
 
 	#projects {
-		margin-bottom: 15vw;
+		margin-bottom: 10vw;
 	}
 
 	#myCarousel {
