@@ -376,11 +376,11 @@ body {
 @media only screen and (max-width: 1200px) {
 
 	#about {
-		padding-top: 3vw;
-		height: 43vw;
+		height: 55vw;
 	}
 
 	#about .container {
+		margin-top: 2vw;
 		margin-left: 5vw;
 		width: 45%;
 	}
