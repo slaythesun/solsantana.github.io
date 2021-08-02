@@ -380,7 +380,7 @@ body {
 	}
 
 	#about .container {
-		margin-left: 7vw;
+		margin-left: 5vw;
 		width: 40%;
 	}
 
@@ -389,7 +389,13 @@ body {
 	}
 
 	#desc p {
-		font-size: 14px;
+		font-size: 12px;
+	}
+
+	#myCarousel {
+		width: 90%;
+		margin: 0 auto;
+		padding: 4vw 3vw;
 	}
 
 	#myCarousel h3 {
@@ -402,6 +408,7 @@ body {
 
 	#myCarousel .card-text {
 		font-size: 12px;
+		line-height: 1.2
 	}
 
 }
@@ -435,6 +442,7 @@ body {
 
 	#myCarousel .card-text {
 		font-size: 12px;
+		line-height: 1
 	}
 
 }
